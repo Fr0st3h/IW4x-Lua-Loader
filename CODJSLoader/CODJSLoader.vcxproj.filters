@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{cb91524e-3b7c-461c-92ac-f3a352a4cf43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\logger">
+      <UniqueIdentifier>{d5e82dab-f088-498c-b6b4-6fae897c6b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hooks">
+      <UniqueIdentifier>{5175373b-6a33-48d8-934d-474eae0fa1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\functions">
+      <UniqueIdentifier>{6f1d9431-4af5-42b3-b207-f9beaa488552}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>utils\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="luastate.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binds.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wndproc.cpp">
+      <Filter>Header Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Colour.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLDrawStretchPic.cpp">
+      <Filter>Header Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="CentityWrapper.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletHitEvent.cpp">
+      <Filter>Header Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CG_ObituaryEvent.cpp">
+      <Filter>Header Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logger.hpp">
+      <Filter>utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="luastate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="luahooks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binds.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>Header Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="centity.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="StructWrapper.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="cclient.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientWrapper.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="refDef.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="hudelem.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="hudelemWrapper.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CentityState.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CentityStateWrapper.hpp">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

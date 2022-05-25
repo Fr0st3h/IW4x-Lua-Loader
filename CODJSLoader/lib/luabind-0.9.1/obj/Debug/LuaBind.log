@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  class.cpp
+  class_info.cpp
+  class_registry.cpp
+  class_rep.cpp
+  create_class.cpp
+  error.cpp
+  exception_handler.cpp
+  function.cpp
+  inheritance.cpp
+  link_compatibility.cpp
+  object_rep.cpp
+  open.cpp
+  pcall.cpp
+  scope.cpp
+  stack_content_by_name.cpp
+  weak_ref.cpp
+  wrapper_base.cpp
+  Generating Code...
+  LuaBind.vcxproj -> D:\source\repos\CODJSLoader\References\Debug\luabind\luabind_d.lib
