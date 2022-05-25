@@ -1,5 +1,5 @@
 # IW4x-Lua-Loader
-The Lua loader was originally from a csgo cheat.
+Lua Loader from csgo cheat ported to IW4x
 
 This wasn't meant to be released so I kinda just threw everything together and its semi messy. 
 
